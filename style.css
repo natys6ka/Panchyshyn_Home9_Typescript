@@ -1,0 +1,53 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: slategray;
+}
+#container{
+    width: 45vw;
+    height: max-content;
+    background-color: rgba(214, 214, 214, 0.356);
+    border-radius: 5px;
+    padding: 10px;
+}
+h1{font-family: 'Sansita Swashed';
+color: whitesmoke;}
+p{
+    color: rgb(253, 232, 162);
+    font-weight: bold;
+}
+button{
+    border: 0;
+    border-radius: 3px;
+    padding: 8px;
+}
+input, textarea{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 8px;
+}
+input{
+    width: 50%;
+}
+textarea{
+    width: 92%;
+    height: 200px;
+    margin: 10px 0;
+}
+#add, #reset{
+    width: 20%;
+}
+#cenzore{
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+#add{background-color: gold;}
+#reset{color: white;
+    background-color:  firebrick;}
